@@ -52,9 +52,27 @@
 :root {
     --main-bg-color: #c0d3d9; /* Global variable */
     --main-text-color: #000000;
-    --main-header-color: #226feb;
+    --main-header-color: #008037;
     --main-header-text-color:#fff;
     --main-icon-color:#fff
     --fade-color: #5ca1eb;
+    --main-theme-light:#c9e265;
+    --main-theme-green:#7ed957;
+    --main-theme-blue:#0e7ec9
   }
   
+ion-card{
+
+    width: 80%;
+    background: var(--main-theme-light);
+    border-radius: 2rem;
+    box-shadow: #000000;
+    ion-card-title{
+        color: var(--main-header-color);
+    }
+    ion-card-subtitle,ion-card-content{
+        color: #3f3f3f;
+    }
+
+
+}

@@ -13,3 +13,18 @@ ion-searchbar {
     display: flex;
     justify-content: center;
 }
+.logo{
+  height: 4rem;  
+}
+.logo-text{
+    color: var(--main-header-color);
+    font-weight: bold;
+}
+.label-container{
+    display: flex;
+    align-items: center;
+}
+.survey{
+    display: flex;
+    justify-content: center;
+}
