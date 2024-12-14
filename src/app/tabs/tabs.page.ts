@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
 })
 export class TabsPage {
 
+  btnclick:Boolean= false;
   constructor() {}
-
+  getBtn(){
+    debugger
+    return this.btnclick;
+  }
+  btnClicked(){
+    this.btnclick = !this.btnclick;
+  }
 }

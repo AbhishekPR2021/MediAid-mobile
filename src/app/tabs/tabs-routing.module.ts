@@ -8,27 +8,36 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'tab1',
-        loadChildren: () => import('../tab1/tab1.module').then(m => m.Tab1PageModule)
+        path: 'diet',
+        loadChildren:() => import('../diet/diet.module').then(m=> m.DietModule)
       },
       {
-        path: 'tab2',
-        loadChildren: () => import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+        path: 'medicines',
+        loadChildren:() => import('../medicines/medicines.module').then(m=> m.MedicinesModule)
       },
       {
-        path: 'tab3',
-        loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+        path: 'doctor',
+        loadChildren:() => import('../doctor/doctor.module').then(m=> m.DoctorModule)
       },
+      {
+        path: 'stress-tracker',
+        loadChildren:() => import('../stress-tracker/stress-tracker.module').then(m=> m.StressTrackerModule)
+      },
+      {
+        path: 'home',
+        loadChildren:() => import('../home/home.module').then(m=> m.HomeModule)
+      },
+
       {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/tabs/diet',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/tab1',
+    redirectTo: '/tabs/diet',
     pathMatch: 'full'
   }
 ];

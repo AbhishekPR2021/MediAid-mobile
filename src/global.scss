@@ -34,4 +34,27 @@
 
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
-@import "@ionic/angular/css/palettes/dark.system.css";
+// @import "@ionic/angular/css/palettes/dark.system.css";
+
+
+.icons{
+    color: antiquewhite;
+    
+}
+
+
+.light{
+    background-color: azure!important;
+    height: 100%;
+}
+
+
+:root {
+    --main-bg-color: #c0d3d9; /* Global variable */
+    --main-text-color: #000000;
+    --main-header-color: #226feb;
+    --main-header-text-color:#fff;
+    --main-icon-color:#fff
+    --fade-color: #5ca1eb;
+  }
+  

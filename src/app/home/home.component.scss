@@ -1,0 +1,15 @@
+.search-bar {
+    width: 90%;
+    border: 2px solid var(--main-header-color);
+    border-radius: 1rem;
+}
+
+ion-searchbar {
+    --box-shadow: none;
+}
+
+.searchbar-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}

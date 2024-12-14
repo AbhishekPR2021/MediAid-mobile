@@ -1,1 +1,25 @@
 
+.tab-bar{
+    --background:var(--main-header-color);
+    --color:var(--main-icon-color);
+    height: 5rem;
+    border-radius: 2rem;
+    margin: 0.5rem;
+}
+.icons-footer{
+    height: 2rem;
+    width: auto;
+    filter: invert(1);
+}
+.home{
+    color:var(--main-header-color);
+    background: white;
+    border-radius: 55%;
+    height: 4.5rem;
+}
+.btn-large{
+    height: 6rem;
+    width: auto;
+}
+.btn{
+}
